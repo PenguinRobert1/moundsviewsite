@@ -38,12 +38,46 @@ nav a:hover {
     overflow: hidden;
 }
 
+/* Style the footer to stay at the bottom */
 footer {
-    text-align: center;
-    padding: 20px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
+    background-color: #f8f9fa; /* Optional: Background color */
+    text-align: center;
+    padding: 3px 0; /* Reduced padding */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better visibility */
+    font-size: 14px; /* Reduced font size */
+}
+
+.image-text-button {
+    display: inline-flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    gap: 4px; /* Adjust spacing between image and text */
+    padding: 10px 15px;
+    text-decoration: none;
+    color: cyan;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Center-align text */
+    margin: 20px auto; /* Add margin to create space around the button */
+    background-color: rgba(0, 0, 255, 0.1); /* Semi-transparent blue background */
+}
+
+.image-text-button .button-icon {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    object-fit: contain; /* Ensures the image scales properly */
+}
+
+.image-text-button:hover {
+    background-color: lightgray; /* Slightly darker semi-transparent blue on hover */
+}
+
+main {
+    padding: 20px; /* Add padding to the main container */
+    text-align: center; /* Center-align content in the main container */
 }
