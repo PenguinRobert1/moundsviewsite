@@ -55,16 +55,17 @@ footer {
     display: inline-flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center;
-    gap: 4px; /* Adjust spacing between image and text */
+    gap: 6px; /* Adjust spacing between image and text */
     padding: 10px 15px;
     text-decoration: none;
-    color: cyan;
+    color: rgb(10, 37, 240);
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     text-align: center; /* Center-align text */
     margin: 20px auto; /* Add margin to create space around the button */
     background-color: rgba(0, 0, 255, 0.1); /* Semi-transparent blue background */
+    font-weight: bold; /* Make text bold */
 }
 
 .image-text-button .button-icon {
@@ -80,4 +81,8 @@ footer {
 main {
     padding: 20px; /* Add padding to the main container */
     text-align: center; /* Center-align content in the main container */
+}
+
+.image-text-button {
+    padding:0ch
 }
